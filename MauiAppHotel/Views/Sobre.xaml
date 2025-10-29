@@ -2,26 +2,34 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppHotel.Views.Sobre"
              Title="Sobre"
-             BackgroundColor="AntiqueWhite"     >
+             BackgroundColor="PaleVioletRed"     >
 
     <VerticalStackLayout Padding="30" Spacing="20" VerticalOptions="Center">
-        <Label Text="Aplicativo Hotel"
-               FontSize="25"
+        <Label Text="Aplicativo App Hotel"
+               FontSize="29"
                HorizontalOptions="Center"
                FontAttributes="Bold"
-               BackgroundColor="CadetBlue"/>
+               BackgroundColor="Azure"
+               TextColor="OrangeRed"/>
 
         <Label Text="Desenvolvido por Luiz Henrique Balbo"
                FontSize="15"
                HorizontalOptions="Center"
-               FontAttributes="Bold"/>
+               FontAttributes="Bold"
+               TextColor="OrangeRed"
+               BackgroundColor="Azure"/>
         
         <Label Text="luiz.balbo@etec.sp.gov.br"
                 FontSize="15"
-                HorizontalOptions="Center" />
+                HorizontalOptions="Center" 
+               TextColor="OrangeRed"
+               BackgroundColor="Azure"/>
 
         <Label Text="2025"
-               FontSize="11"
-               HorizontalOptions="Center" />
+               FontSize="12"
+               HorizontalOptions="Center"
+               TextColor="OrangeRed"
+               BackgroundColor="Azure"/>
+        
     </VerticalStackLayout>
 </ContentPage>
