@@ -13,7 +13,7 @@
         <Label Text="Cálculo da Diária"
                FontFamily="Kalam"
                FontSize="50"
-               TextColor="{StaticResource Primary}" />
+               TextColor="PaleVioletRed" />
 
         <Frame Padding="10">
             <VerticalStackLayout>
@@ -24,7 +24,7 @@
                            Text="Adultos:" />
 
                     <Label Grid.Row="0" Grid.Column="1"
-                           TextColor="{StaticResource Primary}"
+                           TextColor="OrangeRed"
                            Text="{Binding Value}"
                            BindingContext="{x:Reference stp_adultos}"/>
 
@@ -38,7 +38,7 @@
                            Text="Crianças:" />
 
                     <Label Grid.Row="1" Grid.Column="1"
-                           TextColor="{StaticResource Primary}"
+                           TextColor="OrangeRed"
                            Text="{Binding Value}"
                            BindingContext="{x:Reference stp_criancas}"/>
 
@@ -55,7 +55,7 @@
                         <Label Text="Escolha sua Suíte"
                                TextTransform="Uppercase"
                                FontSize="Subtitle"
-                               TextColor="{StaticResource Primary}"/>
+                               TextColor="OrangeRed"/>
 
                         <Picker x:Name="pck_quarto"
                                 Title="Selecione sua Acomodação" />
@@ -69,7 +69,7 @@
                         <Label Text="Período da Estadia"
                                TextTransform="Uppercase"
                                FontSize="Subtitle"
-                               TextColor="{StaticResource Primary}"/>
+                               TextColor="OrangeRed"/>
 
                         <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
                             <Label Text="Check-in:" />
@@ -85,7 +85,8 @@
                     </VerticalStackLayout>
                 </Frame>
 
-                <Button Text="Avançar"  />
+                <Button Text="Avançar" 
+                        BackgroundColor="PaleVioletRed"/>
 
             </VerticalStackLayout>
         </Frame>
