@@ -9,7 +9,7 @@
                FontSize="29"
                HorizontalOptions="Center"
                FontAttributes="Bold"
-               BackgroundColor="Azure"
+               BackgroundColor="blue"
                TextColor="OrangeRed"/>
 
         <Label Text="Desenvolvido por Luiz Henrique Balbo"
