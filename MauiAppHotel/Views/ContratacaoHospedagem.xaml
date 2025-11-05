@@ -89,6 +89,12 @@
 
                 <Button Text="Avançar" Clicked ="Button_Clicked" 
                         BackgroundColor="PaleVioletRed"
+                        TextColor="White"
+                        CornerRadius="20"
+                        FontSize="14"
+                        FontAttributes="Bold"
+                        HeightRequest="30"
+                        HorizontalOptions="CenterAndExpand"
                         />
 
             </VerticalStackLayout>
